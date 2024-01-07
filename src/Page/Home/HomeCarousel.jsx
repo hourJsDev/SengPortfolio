@@ -16,12 +16,12 @@ const HomeCarousel = () => {
     // console.log(currentSlide);
   };
   return (
-    <section className="mt-[30%] max-md:w-[15rem] max-md:mt-[105%] w-[25%] mx-auto">
+    <section className="mt-[30%] max-md:w-[24rem] max-md:mt-[112%] w-[25%] mx-auto">
       <Carousel
         className="w-full"
         dots={"bg-black"}
-        autoplay={false}
-        autoplaySpeed={2000}
+        autoplay={true}
+        autoplaySpeed={3000}
         afterChange={onChange}
       >
         {Images.map((i) => {
@@ -29,7 +29,7 @@ const HomeCarousel = () => {
             <Link key={i.id}>
               <div style={contentStyle}>
                 <img
-                  className="h-[15rem] max-md:h-[10rem] w-full object-cover"
+                  className="h-[15rem] max-md:h-[11rem] w-full object-cover"
                   src={i.src}
                   alt={"image" + i.id}
                 />
