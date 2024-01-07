@@ -14,7 +14,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="test" element={<h1>Hello world</h1>}/>
+          <Route path="portfolio" element={<h1 className="text-center text-white">Portfolio page coming soon!</h1>}/>
       </Route>
     )
   );
