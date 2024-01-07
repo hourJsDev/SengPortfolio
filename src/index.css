@@ -3,7 +3,12 @@
 @tailwind utilities;
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
 body{
-    background-color: black;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background: url("https://imgs.search.brave.com/xBi5EJZxbq60ulQ3vWigp1tQwbGKXuUYvYD84ir3pSE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bGlnaHRzdGFsa2lu/Zy5jb20vd3AtY29u/dGVudC91cGxvYWRz/L05ldy1Zb3JrLSVE/MCU5RCVEMSU4QyVE/MSU4RS0lRDAlOTgl/Q0MlODYlRDAlQkUl/RDElODAlRDAlQkEt/JUQwJUExJUQwJUE4/JUQwJTkwLTEwMjR4/NjI1LmpwZWc");
 }
 *{
     font-family: 'Noto Sans', sans-serif;
