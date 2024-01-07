@@ -26,7 +26,7 @@ const HomeCarousel = () => {
     // console.log(currentSlide);
   };
   return (
-    <section className="mt-[30%] max-md:w-[15rem] max-md:mt-[90%] h-[13rem] w-[25%] mx-auto">
+    <section className="mt-[28%] max-md:w-[15rem] max-md:mt-[90%] h-[10rem] w-[25%] mx-auto">
       <Carousel className="w-full" dots={"bg-black"} autoplay={false} autoplaySpeed={2000} afterChange={onChange}>
         {
           Images.map(i => {

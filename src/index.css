@@ -3,14 +3,19 @@
 @tailwind utilities;
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
 body{
-    background-size: cover;
-    background-position: center;
-    /* height: 100vh; */
+    /* background-size: cover; */
+    background: linear-gradient( rgba(0,0,0,0.9) , rgba(0,0,0,0.9)) , url("https://scontent.fpnh1-2.fna.fbcdn.net/v/t39.30808-6/300381253_426328752807077_1833854943334124740_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeH_DF2SKFcDQpim9VTTIztvSlgOmSeeJnRKWA6ZJ54mdJ27Ix88qYlMkTYPOgE1JDhuEJ1ur58KX2cH7sIvreaa&_nc_ohc=Hg3coBN3Kz4AX8c6OHx&_nc_ht=scontent.fpnh1-2.fna&oh=00_AfAHG2bZiunjN48sNCh-9SpCqSyyro-9FMgLfBuo6AuOyg&oe=659E7659");
+    background-position: 60% 40%;
+    height: 100vh;
+    overflow: hidden;
     /* overflow: hidden; */
     background-repeat: no-repeat;
-    background: url("https://imgs.search.brave.com/xBi5EJZxbq60ulQ3vWigp1tQwbGKXuUYvYD84ir3pSE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bGlnaHRzdGFsa2lu/Zy5jb20vd3AtY29u/dGVudC91cGxvYWRz/L05ldy1Zb3JrLSVE/MCU5RCVEMSU4QyVE/MSU4RS0lRDAlOTgl/Q0MlODYlRDAlQkUl/RDElODAlRDAlQkEt/JUQwJUExJUQwJUE4/JUQwJTkwLTEwMjR4/NjI1LmpwZWc");
+    /* background: url("https://imgs.search.brave.com/xBi5EJZxbq60ulQ3vWigp1tQwbGKXuUYvYD84ir3pSE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bGlnaHRzdGFsa2lu/Zy5jb20vd3AtY29u/dGVudC91cGxvYWRz/L05ldy1Zb3JrLSVE/MCU5RCVEMSU4QyVE/MSU4RS0lRDAlOTgl/Q0MlODYlRDAlQkUl/RDElODAlRDAlQkEt/JUQwJUExJUQwJUE4/JUQwJTkwLTEwMjR4/NjI1LmpwZWc"); */
 }
 *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
 .ant-carousel .slick-dots li button {
