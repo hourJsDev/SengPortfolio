@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
+body{
+    background-color: black;
+}
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.ant-carousel .slick-dots li button {
+    background: rgb(0, 255, 247);
+    opacity: 1;
+   
+}
+.ant-carousel .slick-dots li.slick-active button{
+  
+}
