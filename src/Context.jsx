@@ -3,7 +3,7 @@ const GlobalContext = createContext()
 export const useGlobalContext = () => useContext(GlobalContext)
 const Context = ({children}) => {
   const [openNav,setOpenNav] = useState(false)
-  const [navModal,setNavModal] = useState(true)
+  const [navModal,setNavModal] = useState(false)
   return (
    <GlobalContext.Provider value={{openNav,navModal,setNavModal,setOpenNav}}>
     {children}
